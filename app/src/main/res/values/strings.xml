@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Cars</string>
+    <string name="scrol_et_details_hint">Details</string>
+    <string name="details_et_model_hint">Model</string>
+    <string name="details_et_color_hint">Color</string>
+    <string name="details_et_dpl_hint">Distance Per Letter</string>
+    <string name="details_et_description_hint">Description</string>
+    <string name="main_serch_title">Search</string>
+    <string name="menu_details_save_title">Save</string>
+    <string name="menu_details_save_edit">Edit</string>
+    <string name="menu_details_save_delete">Delete</string>
+</resources>

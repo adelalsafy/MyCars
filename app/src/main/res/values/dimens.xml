@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="horizontal_margin">16dp</dimen>
+    <dimen name="appbar_height">250dp</dimen>
+    <dimen name="toolpar_margin_start">10dp</dimen>
+    <dimen name="toolpar_margin_end">26dp</dimen>
+    <dimen name="main_fab_marin">16dp</dimen>
+    <dimen name="details_et_padding">16dp</dimen>
+    <dimen name="cardview_custom_shadow">19dp</dimen>
+    <dimen name="cardview_cornerRadius">19dp</dimen>
+    <dimen name="custom_card_iv_hight">100dp</dimen>
+    <dimen name="custom_card_tv_textSize_model">18sp</dimen>
+    <dimen name="custom_card_tv_textSize_color" >14sp</dimen>
+    <dimen name="custom_card_tv_textSize_dpl" >14sp</dimen>
+    <dimen name="custom_card_tv_padding">10dp</dimen>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:elevation="@dimen/cardview_custom_shadow"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="@dimen/cardview_cornerRadius"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/custom_card_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/custom_card_iv_hight"
+
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/car_imge" />
+
+        <TextView
+            android:id="@+id/custom_card_tv_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/custom_card_iv"
+            android:padding="@dimen/custom_card_tv_padding"
+            android:text="TextView"
+            android:textColor="@color/custom_card_tv_fontColor"
+            android:textSize="@dimen/custom_card_tv_textSize_model" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_below="@+id/custom_card_tv_model"
+            >
+
+            <TextView
+                android:id="@+id/custom_card_tv_color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_paint"
+                android:drawablePadding="@dimen/custom_card_tv_padding"
+                android:gravity="clip_vertical"
+                android:padding="@dimen/custom_card_tv_padding"
+                android:text="TextView"
+                android:textColor="@color/custom_card_tv_fontColor"
+                android:textSize="@dimen/custom_card_tv_textSize_color" />
+
+            <TextView
+                android:id="@+id/custom_card_tv_dpl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_fuel_station"
+                android:drawablePadding="@dimen/custom_card_tv_padding"
+                android:gravity="clip_vertical"
+                android:padding="@dimen/custom_card_tv_padding"
+                android:text="TextView"
+                android:textColor="@color/custom_card_tv_fontColor"
+                android:textSize="@dimen/custom_card_tv_textSize_dpl" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
